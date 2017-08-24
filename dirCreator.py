@@ -4,6 +4,15 @@ This index represents a hex for the hex map of the region in which my Dungeons a
 """
 
 import os
+import string
 
-currentDir = os.getcwd()
-print(currentDir)
+workingDir = "C:\\Users\\Blue\\Dropbox\\D&D\\Ashor Wildlands"
+alphabetRange = ["A", "Z"]
+numericRange = [1, 20]
+
+# print(os.listdir(workingDir))
+# os.makedirs(os.path.join(workingDir, "Test"))
+# os.rmdir(os.path.join(workingDir, "Test"))
+
+
+
